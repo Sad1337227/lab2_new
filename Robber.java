@@ -20,7 +20,7 @@ public class Robber {
     int rand_name_ind = rand.nextInt(Names.cust_names.length);
     SetName(Names.cust_names[rand_name_ind]);
     Money = 0;
-    Color = true; // means the person is black (100% black)
+    Color = true; 
     ChanceToRob = rand.nextInt(100);
   }
 }
